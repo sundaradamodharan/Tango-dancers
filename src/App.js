@@ -157,7 +157,11 @@ export default function App() {
   return (
     <div className="app">
       <h1>💃🕺 Tango Logic Puzzle</h1>
-      <p>Each refresh brings a new dance challenge!</p>
+      <p>Each refresh brings a new dance challenge!
+    Rules:1) Each row and colum must contain equal number of charaters
+          2) In the same row there must not be more than 2 characters concecutively!!
+          3) This is just a game play simple and be Happy !!!
+    </p>
 
       <div className="grid">
         {grid.map((row, r) =>
